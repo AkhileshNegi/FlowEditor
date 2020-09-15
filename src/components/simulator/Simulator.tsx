@@ -361,7 +361,7 @@ export class Simulator extends React.Component<SimulatorProps, SimulatorState> {
             msg: {
               uuid: createUUID(),
               urn: this.state.contact.urns[0],
-              text: msg.text,
+              text: 'Ironman',
               attachments: msg.attachments
             },
             type: 'msg_created',
